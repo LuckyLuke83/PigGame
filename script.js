@@ -18,6 +18,10 @@ const btnHold = document.querySelector('.btn--hold');
 
 let currentScore = 0;
 
+const newFeature = function () {
+  console.log('Welcome to the application!');
+};
+
 //function that changes active player
 const changePlayer = function () {
   currentScore = 0;
@@ -38,6 +42,8 @@ const changePlayer = function () {
   //   document.querySelector('#current--1').textContent = 0;
   // }
 };
+
+newFeature();
 
 //Rolling Dice logic
 btnRoll.addEventListener('click', function () {
